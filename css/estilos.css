@@ -1,0 +1,293 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 100%;
+    height: 100%;
+
+}
+
+#navegacion{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: arial;
+
+}
+#navegacion ol{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+#navegacion ol li{
+    list-style: none;
+    border-left: 1px solid white;
+    padding: 15px 12px;
+
+
+
+}
+#navegacion ol li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 12px;
+    
+}
+
+#navegacion ol li a:hover{
+  color: #9d9d9d;
+
+}
+
+#pie{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: arial;
+
+
+}
+
+#encabezado{
+	width: 100%;
+	height: 400px;
+	background-color: #9d9d9d;
+	background-image: url(../imagenes/prueba.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+
+#cuerpo{
+	width: 94%;
+	height: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+    display: table;
+    font-family: arial;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.historia{
+    width: 40%;
+    height: auto;
+    background-color:rgba(59, 59, 212, 0.322);;
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    display: table;
+    padding: 10px;
+    float: left;
+}
+
+.trap{
+    width: 40%;
+    height: auto;
+    background-color: rgba(59, 59, 212, 0.322);
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 70px;margin-left: 70px;
+    display: table;
+    padding: 10px;
+    float: left;
+}
+.historia b{
+    font-size: 20px;
+
+}
+.trap b{
+    font-size: 20px;
+}
+
+.bad{
+    width: 60%;
+    height: auto;
+    background-color: rgba(59, 59, 212, 0.322);
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 70px;margin-left: 70px;
+    display: table;
+    padding: 10px;
+    float: left;
+}
+.daddy{
+    width: 60%;
+    height: auto;
+    background-color: rgba(59, 59, 212, 0.322);
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 70px;margin-right: 70px;
+    display: table;
+    padding: 10px;
+    float: right;
+}
+
+.yandel{
+    width: 60%;
+    height: auto;
+    background-color: rgba(59, 59, 212, 0.322);
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 70px;margin-left: 70px;
+    display: table;
+    padding: 10px;
+    float: left;
+}
+
+
+.fa{
+    width: 60%;
+    height: auto;
+    background-color: rgba(59, 59, 212, 0.322);
+    color: black;
+    border: solid #000000;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 70px;margin-left: 70px;
+    display: table;
+    padding: 10px;
+    float: left;
+    
+}
+.imgfa{
+
+padding-left: 5%;
+}
+#encabezado2{
+    width: 100%;
+	height: auto;
+	background-color: #9d9d9d;
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+#encabezado2 h2{
+    font-family: arial;
+
+}
+
+.input-text{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border:1px solid black;
+}
+
+.input-numero{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border:1px solid black;
+}
+
+.input-correo{
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border:1px solid black;
+}
+
+.textarea-mensaje{
+	width: 300px;
+	height: 70px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border:1px solid black;
+}
+
+.input-boton{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: purple;
+	color:white;
+}
+
+.input-boton:hover{
+	background-color: green;
+	color:white;
+}
+
+.imagen-redonda{
+	border-radius: 100px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 15px;
+
+}
+
+.imagen-redonda:hover{
+	border-radius: 10px;
+	border: 2px solid red;
+
+}
+
+p{
+	text-align: justify;
+}
+
+.formu{
+	display: table;
+	float: left;
+	width: 40%;
+}
+.tablatop tr td a{
+    text-decoration: none;
+    color: #000000;
+   
+    
+    
+}
+.tablatop tr td a:hover{
+    color: #636363;
+
+}
+.tablatop{
+    background-color: rgba(59, 59, 212, 0.322);
+    border-radius: 15px;
+}
+
+
+
+/* @media windth and screen( min-width: 500px) {
+    width: 500px;
+    
+} */
+
+
+
+
+
